@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 186, 152);
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+.name {
+    margin: 0px 0px 0px 200px;
+    padding: 25px 20px;
+    color: white;
+    background: #FF7733;
+    float: left;
+}
+
+.navbar {
+    float: right;
+    margin: 0px 200px 0px 0px;
+    padding: 30px 0px 30px 30px;
+}
+
+.navbar a {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    padding: 0px 0px 0px 30px;
+}
+
+section {
+    overflow: auto;
+    margin: 0px 200px 50px 200px;
+    padding: 5px 20px 20px 20px;
+    background: white;
+}
+
+.about-me {
+    color: #FF7733;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+img {
+    float: left;
+    padding-right: 10px;
+}
+
+p {
+    color: rgb(175, 175, 175);
+}
+
+.p1 {
+    float: left;
+    
+}
