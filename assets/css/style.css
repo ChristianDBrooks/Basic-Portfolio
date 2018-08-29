@@ -27,7 +27,7 @@ h1 {
     margin: 0px 0px 0px 12.5%;
     padding: 25px 20px;
     color: white;
-    background: #4aaaa5;
+    background: #3a3a3a;
     float: left;
 }
 
@@ -58,7 +58,7 @@ section {
 }
 
 .about-me {
-    color: #4aaaa5;
+    color: #3a3a3a;
 }
 
 hr {
@@ -100,7 +100,7 @@ p {
 }
 
 footer {   
-    border-top: solid 6px #4aaaa5;
+    border-top: solid 6px #3a3a3a;
     background: #666666;
     text-align: center;
     position: absolute;
@@ -120,7 +120,7 @@ footer p {
 /* Contact Page */
 
 .contact {
-    color: #4aaaa5;
+    color: #3a3a3a;
 }
 
 form {
@@ -144,7 +144,7 @@ textarea {
 
 .button {
     width: 80px;
-    background-color: #4aaaa5;
+    background-color: #3a3a3a;
     border: none;
     color: white;
     padding: 10px;
@@ -155,14 +155,29 @@ textarea {
 }
 
 /* Portfolio Page */
+
 .portfolio {
-    color: #4aaaa5;
+    color: #3a3a3a;
 }
 
 .grid img {
+    position: relative;
     margin-bottom: 23px;
+    z-index: 0;
+}
+
+span {
+    color: white;
+    text-align: center;
+    position: absolute;
+    padding: 20px 0px;
+    width: 280px;
+    margin-top: 210px;
+    background: #3a3a3a;
+    z-index: 1;
 }
 
 .leftImg {
+
     margin-right: 23px;
 }
