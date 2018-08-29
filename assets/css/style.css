@@ -38,14 +38,28 @@ h1 {
 }
 
 .navbar a {
+    display: block;
+    float: left;
     color: #777777;
     text-decoration: none;
+    padding: 15px;
 }
 
-.a2, .a3 {
-    padding: 0px 0px 0px 18px;
-    margin-left: 15px;
-    border-left: 1px solid grey;
+.navbar a:hover {
+    display: block;
+    float: left;
+    color: #3a3a3a;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #ececec;
+}
+
+.h-div {
+    float: left;
+    background: #3a3a3a;
+    padding: 15px 0;
+    height: 18px;
+    width: 1px;
 }
 
 section {
