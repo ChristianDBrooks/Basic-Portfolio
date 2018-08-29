@@ -24,7 +24,7 @@ h1 {
 }
 
 .name {
-    margin: 0px 0px 0px 160px;
+    margin: 0px 0px 0px 12.5%;
     padding: 25px 20px;
     color: white;
     background: #4aaaa5;
@@ -33,7 +33,7 @@ h1 {
 
 .navbar {
     float: right;
-    margin: 0px 160px 0px 0px;
+    margin: 0px 12.5% 0px 0px;
     padding: 30px 0px 30px 30px;
 }
 
@@ -50,9 +50,9 @@ h1 {
 
 section {
     overflow: auto;
-    width: 920px;
-    margin: 0px 160px 100px 160px;
-    padding: 5px 20px 20px 20px;
+    width: 70%;
+    margin: 0px 12.5% 100px 12.5%;
+    padding: 5px 2.5% 20px 2.5%;
     border: 1px solid #dddddd;
     background: #ffffff;
 }
@@ -66,6 +66,7 @@ hr {
 }
 
 .profile-pic {
+    width: 22%;
     float: left;
     padding-right: 15px;
     padding-bottom: 20px;
@@ -73,23 +74,25 @@ hr {
 
 p {
     color: #777777;
-    font-size: 1.4em;
+    font-size: 120%;
 }
 
 .p1 {
-    width: 700px;
+    width: 75%;
     float: left;
     height: 160px;
     margin: 0px;
-    line-height: 40px;
+    line-height: 200%;
 }
 .p2 {
+    width: 100%;
     float: left;
     margin: 0 0 20px 0;
     line-height: 40px;
 }
 
 .p3 {
+    width:100%;
     float: left;
     margin: 0;
     line-height: 40px;
